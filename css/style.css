@@ -217,6 +217,11 @@ blockquote {
   -ms-transform: rotate(15deg);
 }
 
+.home-info {
+  margin: 280px auto 0;
+  position: relative;
+}
+
 #single-page-slider {
   padding-top: 150px;
 }
@@ -825,10 +830,18 @@ ul.tag-cloud li {
 }
 
 .navbar-brand h1 {
+  float: left;
   margin: 0;
   font-weight: 700;
   font-size: 30px;
   margin-top: 4px;
+}
+
+.navbar-brand img {
+  float: left;
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 3px;
 }
 
 /*-----------------------------------------------------------------------------------*/
