@@ -120,6 +120,7 @@ blockquote {
   position: relative;
   z-index: 5;
   color: #fff;
+  min-height: 750px;
 }
 
 #main-slider .carousel-inner {
