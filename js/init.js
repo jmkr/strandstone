@@ -95,7 +95,7 @@ jQuery(document).ready(function($){
 /*-----------------------------------------------------------------------------------*/
 /*  NICESCROLL
 /*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function(){
+/*jQuery(document).ready(function(){
 'use strict';
     jQuery("body").niceScroll({
       cursorcolor: '#2B2B2B',
@@ -103,9 +103,10 @@ jQuery(document).ready(function(){
       cursorborderradius: 4,
       cursorborder: '0px solid #fff',
       cursoropacitymax: 0.7,
+      horizrailenabled: false,
       zindex: 10
     });
-});
+});*/
 
 /*-----------------------------------------------------------------------------------*/
 /*  ANIMATE

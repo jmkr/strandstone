@@ -1,5 +1,9 @@
 @import  url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+html {
+  overflow-x: hidden;
+}
+
 .clearfix {
   zoom: 1;
 }
@@ -38,6 +42,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -129,7 +134,7 @@ blockquote {
 
 .backstretch:before {
   content: '';
-  background-image: url(../images/overlays/04.png);
+  background-image: url(../images/overlays/01.png);
   min-width: 100%;
   height: 100%;
   position: absolute;
