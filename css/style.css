@@ -833,7 +833,7 @@ ul.tag-cloud li {
   float: left;
   margin: 0;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 4px;
 }
 
@@ -1422,7 +1422,7 @@ img.author-box-image {
 #footer-wrapper {
   z-index: 1;
   padding-top: 60px;
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0;
   width: 100%;
   background-color: #202020;
