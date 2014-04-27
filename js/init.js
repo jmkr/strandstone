@@ -95,16 +95,17 @@ jQuery(document).ready(function($){
 /*-----------------------------------------------------------------------------------*/
 /*  NICESCROLL
 /*-----------------------------------------------------------------------------------*/
-/*jQuery(document).ready(function(){
+jQuery(document).ready(function(){
 'use strict';
     jQuery("body").niceScroll({
-      cursorcolor: '#202020',
-      cursorwidth: 15,
-      cursorborderradius: 0,
+      cursorcolor: '#2B2B2B',
+      cursorwidth: 4,
+      cursorborderradius: 4,
       cursorborder: '0px solid #fff',
+      cursoropacitymax: 0.7,
       zindex: 10
     });
-});*/
+});
 
 /*-----------------------------------------------------------------------------------*/
 /*  ANIMATE
