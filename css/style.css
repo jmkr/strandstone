@@ -636,6 +636,15 @@ ul.tag-cloud li {
   background: #dc422b;
 }
 
+.btn-social.btn-github {
+  border: 2px solid #333;
+  color: #333;
+}
+
+.btn-social.btn-github:hover {
+  background: #333;
+}
+
 .btn-social:hover {
   color: #fff;
 }
@@ -1484,7 +1493,7 @@ img.author-box-image {
 /*  PARALLAX
 /*-----------------------------------------------------------------------------------*/
 .divider-section {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.5);
   position: relative;
   overflow: hidden;
   display: block;
