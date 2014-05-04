@@ -12,7 +12,12 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="js/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.26/jquery.min.js"></script>
+    <script>
+        if (!window.jQuery) {
+            document.write('<script src="js/jquery.js"><\/script>');
+        }
+    </script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -281,7 +286,7 @@
                                 </div>  
                             </div>
 	                        <div class="team-content">
-	                            <h5>John Meeker<small class="role muted">Nerd</small></h5>
+	                            <h5>John Meeker<small class="role muted">Super Nerd</small></h5>
 	                            <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
 	                            <a class="btn btn-social btn-facebook" href="http://facebook.com/johnmeeker"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-github" href="http://github.com/jmkr"><i class="fa fa-github"></i></a> <a class="btn btn-social btn-twitter" href="http://twitter.com/meekr5"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="http://linkedin.com/in/johnkmeeker"><i class="fa fa-linkedin"></i></a>
 	                        </div>
